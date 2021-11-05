@@ -47,10 +47,7 @@ body{
    border: 12px solid black;
    
 }
-#niq-info:hover{
-    color:white;
-    transform: scale(1.1);
-}
+
 #niq-info{
     grid-area: about;
     display: grid;
