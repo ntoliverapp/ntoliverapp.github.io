@@ -30,6 +30,7 @@ body{
     justify-self: center;
     display: grid;
     grid-template-areas:
+    "menu"
     "niq"
     "about"
         "skills"
