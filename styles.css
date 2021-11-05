@@ -1,6 +1,18 @@
+
+a{
+    color: white;
+    font-weight: 500;
+    font-size: 30pt;
+}
+h2{
+    font-size: 40pt;
+    color: white;
+}
+
 body{
     background: url('https://cdn.mos.cms.futurecdn.net/YYajXEHkFouJTnVD9nHB9j.jpg'), black;
     grid-template-areas:
+    "menu menu menu"
         "niq niq niq"
         "about about about"
         "skills skills skills"
@@ -10,19 +22,9 @@ body{
     display: grid;
     justify-self: center;
     align-items: center;
-    /* background-size: 100px 80px; */
   background-repeat: no-repeat;
 }
-/* SECTION{
-    grid-template-areas:
-        "about"
-        "skills"
-        "projects";
-    position: sticky;
-    display: grid;
-    justify-self: center;
-    align-items: center;
-} */
+
 .bg{
     grid-area: bg;
     justify-self: center;
@@ -35,12 +37,19 @@ body{
     grid-gap: 15px;
     margin-right: 15px;
 }
+#menu{
+    grid-area: menu;
+    display: grid;
+    align-self: start;
+   font-size: 100pt;
+   color: white;
+   
+}
 
 #niq{
     grid-area: about;
     display: grid;
     align-self: start;
-    /* align-items: center; */
    margin-top: 200px;
    font-size: 100pt;
    color: white;
@@ -52,7 +61,6 @@ body{
     grid-area: about;
     display: grid;
     align-self: start;
-    /* align-items: center; */
    margin-top: 600px;
    font-size: 70pt;
    color: white;
@@ -67,10 +75,6 @@ body{
     margin-top: 800px;
     font-size: 50pt;
     color: white;
-    /* border: 10px solid black; */
-    /* justify-self:self-start;
-    align-items: center;
-    height: 1000px; */
 }
 #about:hover{
     color:black;
@@ -85,9 +89,6 @@ body{
     color: white;
     text-align: justify;
   text-justify: inter-word;
-    /* justify-self:self-start;
-    align-items: center;
-    height: 1000px; */
     border: 10px solid black;
 }
 
@@ -104,14 +105,9 @@ color:white;
     font-size: 50pt;
     color: white;
     border: 10px solid white;
-    /* justify-self:self-start;
-    align-items: center;
-    height: 1000px; */
 }
 
-#skills:hover{
-color:orange;
-}
+
 #skills-info{
     grid-area: skills;
     display: grid;
@@ -120,10 +116,7 @@ color:orange;
     font-size: 30pt;
     color: white;
     text-align: justify;
-  text-justify: inter-word;
-    /* justify-self:self-start;
-    align-items: center;
-    height: 1000px; */
+    text-justify: inter-word;
     border: 10px solid white;
 }
 
@@ -136,8 +129,8 @@ color:orange;
     margin-bottom: 800px;
     font-size: 50pt;
     color: white;
-
 } 
+
 #projects-info{
     grid-area: projects;
     display: grid;
@@ -145,15 +138,8 @@ color:orange;
     margin-top: -300px;
     font-size: 30pt;
     color: white;
-    /* text-align: justify;
-  text-justify: inter-word; */
-  display:grid;
-  grid-template-columns: repeat(2, 1fr);
-  /* grid-auto-rows: 70px; */
-  /* grid-gap:20px;  */
-    /* justify-self:self-start;
-    align-items: center;
-    height: 1000px; */
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 #projects-info2{
@@ -163,20 +149,14 @@ color:orange;
     margin-top: 1900px;
     font-size: 30pt;
     color: white;
-    /* text-align: justify;
-  text-justify: inter-word; */
-  display:grid;
-  grid-template-columns: repeat(2, 1fr);
-  /* grid-auto-rows: 70px; */
-  /* grid-gap:20px;  */
-    /* justify-self:self-start;
-    align-items: center;
-    height: 1000px; */
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 img{
     width:80%;
 }
+
 #contact{
     grid-area: contact;
     display: grid;
@@ -184,9 +164,8 @@ img{
     margin-top: -200px;
     font-size: 50pt;
     color: white;
-
-
 } 
+
 #contact-info{
         grid-area: contact;
         display: grid;
@@ -196,13 +175,8 @@ img{
         color: white;
         text-align: justify;
       text-justify: inter-word;
-        /* justify-self:self-start;
-        align-items: center;
-        height: 1000px; */
 }
+
 p{
     text-align: center;
 }
-/* .bg-1{
-    border: 10px solid black;
-} */
