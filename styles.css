@@ -1,0 +1,211 @@
+body{
+    background: url('https://cdn.mos.cms.futurecdn.net/YYajXEHkFouJTnVD9nHB9j.jpg'), black;
+    grid-template-areas:
+        "niq niq niq"
+        "about about about"
+        "skills skills skills"
+        "projects projects projects"
+        "contact contact contact";
+    position: sticky;
+    display: grid;
+    justify-self: center;
+    align-items: center;
+    /* background-size: 100px 80px; */
+  background-repeat: no-repeat;
+}
+/* SECTION{
+    grid-template-areas:
+        "about"
+        "skills"
+        "projects";
+    position: sticky;
+    display: grid;
+    justify-self: center;
+    align-items: center;
+} */
+.bg{
+    grid-area: bg;
+    justify-self: center;
+    display: grid;
+    grid-template-areas:
+    "niq"
+    "about"
+        "skills"
+        "projects";
+    grid-gap: 15px;
+    margin-right: 15px;
+}
+
+#niq{
+    grid-area: about;
+    display: grid;
+    align-self: start;
+    /* align-items: center; */
+   margin-top: 200px;
+   font-size: 100pt;
+   color: white;
+   border: 12px solid black;
+   
+}
+#niq-info:hover{
+    color:white;
+    transform: scale(1.1);
+}
+#niq-info{
+    grid-area: about;
+    display: grid;
+    align-self: start;
+    /* align-items: center; */
+   margin-top: 600px;
+   font-size: 70pt;
+   color: white;
+   font-style: italic;
+   border: 10px solid black;
+}
+
+#about{
+    grid-area: about;
+    display: grid;
+    align-self: center;
+    margin-top: 800px;
+    font-size: 50pt;
+    color: white;
+    /* border: 10px solid black; */
+    /* justify-self:self-start;
+    align-items: center;
+    height: 1000px; */
+}
+#about:hover{
+    color:black;
+}
+
+#about-info{
+    grid-area: about;
+    display: grid;
+    align-self: center;
+    margin-top: 1300px;
+    font-size: 30pt;
+    color: white;
+    text-align: justify;
+  text-justify: inter-word;
+    /* justify-self:self-start;
+    align-items: center;
+    height: 1000px; */
+    border: 10px solid black;
+}
+
+#about-info:hover{
+color:white;
+}
+
+
+#skills{
+    grid-area: skills;
+    display: grid;
+    align-self: center;
+    margin-top: 300px;
+    font-size: 50pt;
+    color: white;
+    border: 10px solid white;
+    /* justify-self:self-start;
+    align-items: center;
+    height: 1000px; */
+}
+
+#skills:hover{
+color:orange;
+}
+#skills-info{
+    grid-area: skills;
+    display: grid;
+    align-self: center;
+    margin-top: 900px;
+    font-size: 30pt;
+    color: white;
+    text-align: justify;
+  text-justify: inter-word;
+    /* justify-self:self-start;
+    align-items: center;
+    height: 1000px; */
+    border: 10px solid white;
+}
+
+
+#projects{
+    grid-area: projects;
+    display: grid;
+    align-self: center;
+    margin-top: -800px;
+    margin-bottom: 800px;
+    font-size: 50pt;
+    color: white;
+
+} 
+#projects-info{
+    grid-area: projects;
+    display: grid;
+    align-self: center;
+    margin-top: -300px;
+    font-size: 30pt;
+    color: white;
+    /* text-align: justify;
+  text-justify: inter-word; */
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-auto-rows: 70px; */
+  /* grid-gap:20px;  */
+    /* justify-self:self-start;
+    align-items: center;
+    height: 1000px; */
+}
+
+#projects-info2{
+    grid-area: projects;
+    display: grid;
+    align-self: center;
+    margin-top: 1900px;
+    font-size: 30pt;
+    color: white;
+    /* text-align: justify;
+  text-justify: inter-word; */
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-auto-rows: 70px; */
+  /* grid-gap:20px;  */
+    /* justify-self:self-start;
+    align-items: center;
+    height: 1000px; */
+}
+
+img{
+    width:80%;
+}
+#contact{
+    grid-area: contact;
+    display: grid;
+    align-self: center;
+    margin-top: -200px;
+    font-size: 50pt;
+    color: white;
+
+
+} 
+#contact-info{
+        grid-area: contact;
+        display: grid;
+        align-self: center;
+        margin-top: 200px;
+        font-size: 30pt;
+        color: white;
+        text-align: justify;
+      text-justify: inter-word;
+        /* justify-self:self-start;
+        align-items: center;
+        height: 1000px; */
+}
+p{
+    text-align: center;
+}
+/* .bg-1{
+    border: 10px solid black;
+} */
