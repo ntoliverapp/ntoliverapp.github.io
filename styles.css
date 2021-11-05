@@ -1,6 +1,4 @@
 
-
-
 a{
     color: white;
     font-weight: 500;
@@ -14,6 +12,7 @@ h2{
 body{
     background: url('https://cdn.mos.cms.futurecdn.net/YYajXEHkFouJTnVD9nHB9j.jpg'), black;
     grid-template-areas:
+    "menu menu menu"
         "niq niq niq"
         "about about about"
         "skills skills skills"
@@ -46,7 +45,16 @@ header{
    color: white;
    
 }
-
+#niq{
+    grid-area: menu;
+    display: grid;
+    align-self: start;
+   margin-top: 0px;
+   font-size: 100pt;
+   color: white;
+   border: 12px solid black;
+   
+}
 #niq{
     grid-area: about;
     display: grid;
