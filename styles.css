@@ -1,4 +1,6 @@
 
+
+
 a{
     color: white;
     font-weight: 500;
@@ -36,7 +38,7 @@ body{
     grid-gap: 15px;
     margin-right: 15px;
 }
-#menu{
+header{
     grid-area: menu;
     display: grid;
     align-self: start;
