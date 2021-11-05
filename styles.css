@@ -12,7 +12,6 @@ h2{
 body{
     background: url('https://cdn.mos.cms.futurecdn.net/YYajXEHkFouJTnVD9nHB9j.jpg'), black;
     grid-template-areas:
-    "menu menu menu"
         "niq niq niq"
         "about about about"
         "skills skills skills"
@@ -30,7 +29,6 @@ body{
     justify-self: center;
     display: grid;
     grid-template-areas:
-    "menu"
     "niq"
     "about"
         "skills"
