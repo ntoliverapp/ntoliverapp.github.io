@@ -77,15 +77,12 @@ header{
     font-size: 50pt;
     color: white;
 }
-#about:hover{
-    color:black;
-}
 
 #about-info{
     grid-area: about;
     display: grid;
     align-self: center;
-    margin-top: 1200px;
+    margin-top: 1300px;
     font-size: 30pt;
     color: white;
     text-align: justify;
